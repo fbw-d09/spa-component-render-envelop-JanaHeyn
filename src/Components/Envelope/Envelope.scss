@@ -1,0 +1,27 @@
+.Envelope 
+{
+    margin: 3rem auto;
+    padding: 2rem;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+
+    & > :first-child
+    {
+        // border: 2px solid purple;
+    }
+
+    & > :nth-child(2)
+    {
+        align-self: center;
+        // border: 2px solid yellow;
+    }
+
+    & > :last-child
+    {
+        // border: 2px solid green;
+    }
+
+}
